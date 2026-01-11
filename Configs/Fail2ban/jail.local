@@ -1,0 +1,14 @@
+[sshd]
+enabled = true
+port = 2222
+filter = sshd
+logpath = /var/log/auth.log
+maxretry = 5
+bantime = 3600
+findtime = 600
+
+#port → your custom SSH port
+
+#maxretry → how many failed attempts before banning
+
+#bantime → seconds to ban IP
