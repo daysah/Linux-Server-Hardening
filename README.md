@@ -17,8 +17,9 @@ The goal is to harden an Ubuntu server by applying basic Linux security best pra
 
 ## 🛠️ Tools Used
 - OpenSSH
-- UFW
-- Fail2Ban
+- UFW (Firewall)
+- Fail2Ban (Brute-force protection)
+
 
 ## 🔐 Security Measures Implemented
 - Disabled root SSH login
