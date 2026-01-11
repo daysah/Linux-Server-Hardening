@@ -1,0 +1,12 @@
+# Default policies
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+
+# Allow SSH (your custom port)
+sudo ufw allow 2222/tcp
+
+# Enable rate limiting on SSH
+sudo ufw limit 2222/tcp
+
+# Enable UFW
+sudo ufw --force enable
